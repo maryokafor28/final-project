@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: manrope, sans-serif;
+    width: 100%;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E5fff2;
+    padding: 20px 40px 20px 40px;
+    width: 100%;
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+
+}
+ 
+.header.welcome {
+    width: 100%;
+    padding: 14px 16px;
+}
+
+.header .bx {
+    width: 20px;
+    font-weight:  400;
+
+}
+
+.header .span {
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    gap: 18px;
+} 
+
+
+/* -----------NAV BAR--------------- */
+
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 80px 25px 80px;
+    text-transform: capitalize;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #0f0101ee;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+
+header ul {
+    display: flex;
+    gap: 40px;
+}
+
+/* ------STYLING THE BUTTON */
+
+.button {
+    background-color: #004D2C;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 20px;
+
+}
+
+.button:hover{ 
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #09008be5;
+
+
+}
+
+.nav_down_arrow :hover {
+    font-size: 18px;
+    padding-left: 10px;
+    color: #0e008be5;
+    }
+
+    /* -------STYLING THE HERO SECTION----------- */
+
+.hero_image img {
+    width: 1300px;
+    height: 800px;
+
+}
+
+.booking_appoint {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -50px; 
+    z-index: 100; 
+    text-align: center;
+   
+
+    margin-right: 50px;
+    margin-left: 50px;
+
+    
+
+}
+
+.button_help {
+    background-color: #248159;
+    color: white;
+    
+    margin-right: 60px;
+    margin-left: 60px;  
+    border-width: 1000px;
+    padding: 30px;
+}
+
+.button_help :hover {
+    color: blue;
+}
+
+.booking_appoint a {
+    color: #fff;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+
+/* -----------STYLING THE ABOUT SECTION----------------- */
+ .About_unth{
+    
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 90px 60px 90px;
+}
+
+.About {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 60px;
+    align-items: center;
+    background-color:#f3fdfc;
+    
+}
+    
+
+
+
+
+
+   /*----------STYLING E-CONSULTATION--------------  */
+
+.E_consultation {
+    display: flex;
+    margin-top: 15px; 
+    gap: 200px;
+    padding-right: 125px;
+    padding-left: 125px;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}   
+
+
+.E_consultation .consult{
+    padding-top: 50px;
+
+}
+.E_consultation h2 {
+   
+    padding-bottom: 20px; 
+}
+
+.E_consultation p {
+    font-weight: 600;
+    line-height: 2.0;
+    padding-bottom: 40px;
+}
+
+
+.E_consultation img {
+    width: 500px;
+}
+
+
+
+    
+    
+    
