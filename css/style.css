@@ -5,7 +5,7 @@
 } 
 
 body {
-    font-family: manrope, sans-serif;
+    font-family: Raleway, sans-serif;
     width: 100%;
     
 }
@@ -108,9 +108,8 @@ header ul {
     z-index: 100; 
     text-align: center;
    
-
-    margin-right: 50px;
-    margin-left: 50px;
+     margin-right: 100px;
+     margin-left: 100px; 
 
     
 
@@ -120,10 +119,10 @@ header ul {
     background-color: #248159;
     color: white;
     
-    margin-right: 60px;
-    margin-left: 60px;  
+    margin-right: 70px;
+    margin-left: 70px;  
     border-width: 1000px;
-    padding: 30px;
+    padding: 35px;
 }
 
 .button_help :hover {
@@ -159,7 +158,7 @@ header ul {
 
 
 
-   /*----------STYLING E-CONSULTATION--------------  */
+   /*----------STYLING E-CONSULTATION SECTION--------------  */
 
 .E_consultation {
     display: flex;
@@ -194,6 +193,90 @@ header ul {
 .E_consultation img {
     width: 500px;
 }
+
+/* -------------------STYLING THE FOOTER SECTION------------------ */
+ 
+.footer {
+    display: flex;
+    align-items: flex-start;
+     gap: 92px; 
+    justify-content: space-between;
+    align-content: center;
+    padding: 90px 55px 90px 55px; 
+    width: 100%; 
+    background-color: #248159;
+     margin-top: 80px; 
+    color: #fff;
+}
+
+.footer_unth {
+    line-height: 3;
+}
+.footer h4{
+    padding-bottom: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.footer_img  {
+    align-items: center; 
+    justify-content: space-between;
+
+    
+}
+.footer_img img {
+     margin-right: 22px;  
+     float: left; 
+    border-radius: 50px;
+    
+    
+    
+
+} 
+.footer_img .text {
+    margin-bottom: 30px; 
+     text-align: left;
+     overflow: hidden;
+     margin-right: 10px;
+     flex: 1;
+     
+}  
+
+.footer_img .shadow {
+    background-color: #79B79C;
+    color: #ffff;
+    padding: 3px;
+    border: 1px;
+    border-radius: 50px;
+    position: relative; 
+    right: 40px;
+}
+
+.footer_contact .contact {
+    line-height: 2;
+ 
+    /* width: 270px;
+    height: 45px; */
+    
+
+}
+.footer_contact .span{
+    width: 18px;
+    
+    
+
+}
+
+.footer_copyright h4 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #fff;
+    padding: 20px;
+    background-color: black;
+    ma
+}
+
 
 
 
