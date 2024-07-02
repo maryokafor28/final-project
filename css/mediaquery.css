@@ -1,0 +1,32 @@
+@media (max-width: 1047px){
+    
+    .header .span {
+        justify-content: space-between;
+        list-style: none;
+        display: flex;
+        gap: 10px;
+    } 
+    .button{
+        display: none;
+    }
+    .hero_image img {
+        width: 1200px;
+        height: 500px;
+    
+    }
+    
+
+.About {
+    
+    gap: 10px;
+    width: 100%;
+    
+    
+    align-content: center;
+    background-color:#f3fdfc;
+    padding: 10px 20px 10px 20px;
+    
+    
+}
+
+}
