@@ -6,7 +6,7 @@
 
 body {
     font-family: Raleway, sans-serif;
-    width: 100%;
+    width: 100%; 
     
 }
 
@@ -111,7 +111,7 @@ header ul {
     margin-top: -50px; 
     z-index: 100; 
     text-align: center;
-   
+     gap: 5px;
      margin-right: 100px;
      margin-left: 100px; 
 
@@ -122,11 +122,9 @@ header ul {
 .button_help {
     background-color: #248159;
     color: white;
-    
-    margin-right: 70px;
-    margin-left: 70px;  
-    border-width: 1000px;
-    padding: 35px;
+    border-radius: 5px;
+    border-width: 100px;
+    padding: 35px 35px;
 }
 
 .button_help :hover {
@@ -148,7 +146,7 @@ nav.home :hover{
  .About_unth{
     
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 50px;
     /* padding: 14px 15px; */
     
@@ -157,14 +155,13 @@ nav.home :hover{
 .About {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 50px;
+    gap: 80px;
     align-content: center;
     background-color:#f3fdfc;
-    padding: 20px 40px 20px 20px;
-   
-    
+    padding: 90px 55px 90px 55px; 
+    /* width: 100%; */
 }
-    
+
 
 
 
@@ -178,7 +175,7 @@ nav.home :hover{
     gap: 200px;
     padding-right: 125px;
     padding-left: 125px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     
     
@@ -204,6 +201,7 @@ nav.home :hover{
 
 .E_consultation img {
     width: 500px;
+  
 }
 
 .button_consult {
@@ -218,18 +216,21 @@ nav.home :hover{
 /* -------------------STYLING THE FOOTER SECTION------------------ */
  
 .footer {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-     gap:50px;  
-    /* justify-content: space-between; */
+     display: grid;
+    grid-template-columns: repeat(3,1fr); 
+     gap:40px;  
+     justify-content: center; 
     align-content: center;
-    padding: 90px 55px 90px 55px; 
-    width: 100%;  
+    padding: 90px 20px 90px 20px; 
     background-color: #248159;
      margin-top: 80px; 
     color: #fff;
+    justify-content: baseline;
 }
 
+.footer p{
+
+}
 .footer_unth {
     line-height: 3;
 }
@@ -253,7 +254,6 @@ nav.home :hover{
 .footer_img .text {
      margin-bottom: 45px;  
      text-align: left;
-     overflow: hidden;
      margin-right: 10px;
     
      
@@ -302,7 +302,7 @@ nav.home :hover{
     color: #fff;
     padding: 20px;
     background-color: black;
-    ma
+    
 }
 
 
