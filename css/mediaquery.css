@@ -1,21 +1,16 @@
- @media (max-width: 1047px){
-
-    
+@media (max-width: 1047px){
+    .header {
+        width: 350;
+    }
     .header .span {
-        justify-content: space-between;
-        list-style: none;
-        display: flex;
         gap: 10px;
-    } 
-    .button{
-        display: none;
-    }
-    .hero_image img {
-        width: 1100px;
-        height: 500px;
+    }  
+        
     
+    .hero_image img {
+         width: 1200px;
+        height: 600px; 
     }
-
     .booking_appoint {
         display: flex;
         justify-content: space-between;
@@ -28,96 +23,249 @@
 
     .About {
     
-    gap: 1px;
+        padding: 30px 70px 30px 70px;
+    }
+    
+    .About_unth{
+        align-items: center;
+        justify-content:center;
+        margin-top: 50px;
+    }
+    
+    .About {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      align-content: center;
+      background-color:#f3fdfc;
+      gap: 20px;
+      width: 100%; 
+   } 
+    .about_txt {
+       font-size: 15px;
+       width: 200px;
+       padding: 3px 3px 3px 3px;
+       margin: 5px; 
+       align-content: center;
+       justify-content:baseline;
+
+    }
+       
+    
+    
+    .E_consultation {
+        display: flex;
+        flex-direction: wrap;
+        margin-top: 40px; 
+        /* gap: 200px; */
+        justify-content: center;
+        align-items: center;
+        width: 1000px;
+        /* padding: 50px 100px 50px 100px; */
+        align-content: center;
+        
+    }
+    
+    .E_consultation img {
+      width: 350px; 
+      
+    }
+    
+    .E_consultation h2 {
+       
+       
+      width: 350px;  
+    }
+    
+    .E_consultation p {
+    
+        
+     width: 350px; 
+    }
+    .consult {
+        width: 400px;
+    }
+    .footer {
+       display: grid;
+       grid-template-columns: repeat(3,1fr); 
+       gap:40px;  
+       justify-content: center; 
+       align-content: center;
+       padding: 90px 20px 90px 20px; 
+       background-color: #248159;
+       margin-top: 80px; 
+       color: #fff;
+       justify-content: baseline;
+    }
+    
+     .footer p{
+       font-size: 14px;
+    
+    
+    } 
+    
+    .footer h4{
+        padding-bottom: 20px;
+        display: flex;
+        text-align: center;
+    }
+    
+    
+    
+    .footer_img .text {
+         margin-bottom: 45px;  
+         text-align: left;
+         overflow: hidden; 
+         margin-right: 10px;
+        
+         
+    }  
+    
+    }
+        
+    
+    /* -------------FOR  TABLET--------------------------------- */
+
+  
+@media (max-width: 900px) {
+    
+    .header {
+        display: none;
+    }
+    nav ul {
+        display: none
+    }
 
     
-    
-    /* align-content: center; */
-    padding: 5px 10px 5px 10px;
-    
-    
+#bx-open {
+    font-size: 30px;
+    display: block;
 }
 
- .About_unth{
-    align-items: center;
-    justify-content:center;
-    margin-top: 50px;
+     .hero_image img {
+        width: 900px;
+        height: 500px;
     
-}
-.About {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    align-content: center;
-    background-color:#f3fdfc;
-     gap: 20px;
-    /* width: 100%;  */
-} 
+    } 
 
-.about_txt {
-    max-width: 100%;
-    padding: 3px 3px 3px 3px;
-    margin: 5px; 
-    align-content: center;
-    justify-content:baseline;
+    .booking_appoint {
+        gap: 15px;
+        font-size: 10px;
+    }
 
+    .button_help {
+       
+        padding: 25px 25px;
+    }
+
+    .About_unth{
+        align-items: center;
+        justify-content:center;
+        margin-top: 50px;
+       
+    }
+    
+    .About {
+     
+      gap: 12px;
+      /* width: 100%; */
+   } 
+    .about_txt {
+       font-size: 15px;
+       width: 150px;
+       /* align-content: center; */
+       justify-content: center;
+      
+    
+    }
+
+    .About_unth img{
+        width: 200px;
+
+    
 }
 
 .E_consultation {
     display: flex;
+    flex-direction: row;
+   
     margin-top: 40px; 
-    gap: 120px;
+    /* gap: 200px; */
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 800px;
+    padding: 20px;
+    align-content: center;
+    
 }
 
 .E_consultation img {
-    width: 400px;
+  width: 300px; 
   
 }
-.footer {
-    display: grid;
-   grid-template-columns: repeat(3,1fr); 
-    gap:40px;  
-    justify-content: center; 
-   align-content: center;
-   padding: 90px 20px 90px 20px; 
-   background-color: #248159;
-    margin-top: 80px; 
-   color: #fff;
-   justify-content: baseline;
+
+.E_consultation h2 {
+   
+   
+  width: 350px;  
 }
 
+.E_consultation p {
+
+    
+ width: 350px; 
+}
+.consult {
+    width: 150px;
+}
+
+
+.footer {
+   
+width: 100%; 
+display: flex;
+}
 .footer p{
 
+    font-size: 13px;
+    gap: 2px;
+
 }
-.footer_unth {
-    line-height: 3;
+.footer_unth p {
+   line-height: 3;
 }
 .footer h4{
-    padding-bottom: 20px;
-    display: flex;
-    text-align: center;
+   width: 200px;
 }
 
+.footer_copyright h4 {
+  font-size: 15px;
+   
+}
 
-.footer_img img {
-     margin-right: 22px;  
-     float: left; 
-    border-radius: 50px;
-    margin-top: 10px;
-    
-    
-    
+.mobile_header {
+    display: none;
+}
 
-} 
-.footer_img .text {
-     margin-bottom: 45px;  
-     text-align: left;
-     overflow: hidden;
-     margin-right: 10px;
-    
-     
 }  
 
+
+/* ----------------FOR MOBILE------------------------------------- */
+@media (max-width: 700px) {
+
 }
+
+
+
+   
+   
+   
+
+
+        
+    
+    
+       
+       
+     
+
+    

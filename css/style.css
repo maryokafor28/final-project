@@ -6,7 +6,7 @@
 
 body {
     font-family: Raleway, sans-serif;
-    width: 100%; 
+     width: 100%;
     
 }
 
@@ -40,6 +40,17 @@ body {
 } 
 
 
+#bx-open {
+    font-size: 30px;
+    display: none;
+}
+#bx-close{
+    font-size: 30px;
+    font-weight: 600;
+    display: none;
+  }
+
+
 /* -----------NAV BAR--------------- */
 
 .nav_bar {
@@ -68,9 +79,32 @@ a {
 
 header ul {
     display: flex;
-    gap: 40px;
+    gap: 60px;
 }
 
+.mobile_header {
+    display: none;
+    background-color: #065666;   
+    width: 100vw;
+    height: 60vh;
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+
+.mobile_header ul  {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding-left: 20px;
+    padding-top: 30px;
+
+}
+.mobile_header ul li a {
+    color: #ffff;
+    font-size: 20px;
+}
 /* ------STYLING THE BUTTON */
 
 .button {
@@ -103,7 +137,6 @@ header ul {
     height: 800px;
 
 }
-
 .booking_appoint {
     display: flex;
     justify-content: space-between;
@@ -156,7 +189,7 @@ nav.home :hover{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 80px;
-    align-content: center;
+    align-items: center;
     background-color:#f3fdfc;
     padding: 90px 55px 90px 55px; 
     /* width: 100%; */
@@ -175,7 +208,6 @@ nav.home :hover{
     gap: 200px;
     padding-right: 125px;
     padding-left: 125px;
-    justify-content: center;
     align-items: center;
     
     
@@ -225,13 +257,13 @@ nav.home :hover{
     background-color: #248159;
      margin-top: 80px; 
     color: #fff;
-    justify-content: baseline;
+    justify-content: center;
 }
 
 .footer p{
 
 }
-.footer_unth {
+.footer_unth p {
     line-height: 3;
 }
 .footer h4{
