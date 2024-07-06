@@ -242,7 +242,12 @@ nav.home :hover{
   
 }
 
-.
+.button_consult {
+    background-color: #004D2C;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 20px;
+
 }
 
 
