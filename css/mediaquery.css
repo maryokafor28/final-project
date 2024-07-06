@@ -5,12 +5,12 @@
     .header .span {
         gap: 10px;
     }  
-        
-    
-    .hero_image img {
-         width: 1200px;
-        height: 600px; 
-    }
+      
+    .hero_container img {
+        width: 1000px;
+        height: 600px;
+    } 
+ 
     .booking_appoint {
         display: flex;
         justify-content: space-between;
@@ -251,18 +251,146 @@ display: flex;
 
 /* ----------------FOR MOBILE------------------------------------- */
 @media (max-width: 700px) {
-
-}
-
-
-
-   
-   
-   
-
-
+    .nav_bar {
+        padding: 8px 15px 8px 15px;
+        width: 400px;
+        font-size: 5px;
+        margin-bottom: -100px;
+        z-index: 2;
+        position: absolute;
+    }
+    .logo {
+        width: 60px;
+    }
+    
+    #bxopen {
+        color: #fff;
+    }
+    .button {
+        background-color: #004D2C;
+        color: white;
+        padding: 12px 12px;
+        border-radius: 20px;
         
     
+    }
+
+    .hero_container img {
+        width:500px;
+        height: 500px;
+        
+    } 
+
+    
+    .booking_appoint {
+        display: block;
+        flex-direction: column;
+        margin-top: 8px;
+        justify-content:center;
+        align-items: center;
+    
+        width: 400px;
+        text-align: center;
+         margin: 50px;
+        
+    }
+
+    .button_help {
+        background-color: #248159;
+        color: white;
+        border-radius: 5px;
+        padding:15px; 
+        flex: 1;
+        margin: 18px;
+        align-content: center;
+    }
+
+    
+    .About {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    
+    .about_txt {
+       font-size: 15px;
+       width: 300px;
+       justify-content: center;
+      
+    
+    }
+
+    
+.E_consultation {
+    display: flex;
+    flex-direction: column-reverse;
+   
+    margin-top: 40px; 
+    /* gap: 200px; */
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+     padding: 5px; 
+     margin:50px;
+    align-content: center;
+    
+}
+
+.E_consultation img {
+ width: 400px;
+ height: 500px;
+  max-width: 600px;
+  align-content: center;
+}
+
+.consult {
+    width: 350px;
+    text-align: center;
+
+
+
+} 
+
+
+.footer {
+   
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    padding: 40px; 
+   
+    }
+    .footer p{
+    
+        font-size: 13px;
+        gap: 2px;
+        
+    
+    }
+    .footer_contact p {
+        text-align: center;
+        font-size: 13px;
+    }
+    .footer_unth  {
+       text-align: center;
+    }
+    .footer h4{
+       width: 400px;
+      justify-content: center;
+      font-size: 19px;
+    }
+    
+    .footer_copyright h4 {
+      font-size: 13px;
+      text-align: center;
+    
+    }
+    
+    
+    .footer_img img {
+       margin-top: -22px;
+}
+
     
        
        
