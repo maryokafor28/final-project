@@ -255,7 +255,7 @@ display: flex;
 @media (max-width: 700px) {
     .nav_bar {
         padding: 8px 15px 8px 15px;
-        width: 600px;
+        width: 400px;
         font-size: 5px;
         margin-bottom: -100px;
         z-index: 2;
@@ -278,8 +278,8 @@ display: flex;
     }
 
     .hero_container img {
-        width:700px;
-        height: 500px;
+        width:500px;
+        height: 400px;
         
     } 
 
@@ -291,7 +291,7 @@ display: flex;
         justify-content:center;
         align-items: center;
     
-        width: 500px;
+        width: 300px;
         text-align: center;
          margin: 50px;
         
@@ -313,7 +313,7 @@ display: flex;
     .About {
         display: flex;
         flex-direction: column;
-        width: 600px;
+        width:400px;
     }
   
     
@@ -334,7 +334,7 @@ display: flex;
     /* gap: 200px; */
     justify-content: center;
     align-items: center;
-    width: 600px;
+    width: 300px;
      padding: 5px; 
      margin:50px;
     align-content: center;
@@ -382,15 +382,15 @@ display: flex;
     
     }
     .footer_contact p {
-        text-align: center;
-        font-size: 17px;
+        
+        font-size: 14px;
+        justify-content: center;
     }
     .footer_unth  {
-       text-align: center;
-       width: 35px;
+
     }
     .footer h4{
-       width: 600px;
+       width: 400px;
       justify-content: center;
       font-size: 19px;
     }
