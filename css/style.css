@@ -141,6 +141,10 @@ header ul {
 
 }
 
+.hero_container {
+    width: 100%;
+}
+
 
 .booking_appoint {
     display: flex;
@@ -152,7 +156,7 @@ header ul {
      gap: 80px;
      margin-right: 100px;
      margin-left: 100px;  
-
+    width: 100%;
     
 
 }
@@ -188,6 +192,7 @@ nav.home :hover{
     justify-content: center;
     margin-top: 50px;
     padding: 14px 15px;
+  
     
 }
 
@@ -198,7 +203,7 @@ nav.home :hover{
     align-items: center;
     background-color:#f3fdfc;
     padding: 90px 55px 90px 55px;  
-    /* width: 100%; */ */
+    width: 100%; 
 }
 
 
@@ -215,7 +220,7 @@ nav.home :hover{
     padding-right: 125px;
     padding-left: 125px;
     align-items: center;
-    
+    width: 100%;
     
 
 }   
@@ -264,6 +269,7 @@ nav.home :hover{
      margin-top: 80px; 
     color: #fff;
     justify-content: center;
+    width: 100%;
 }
 
 .footer p{
@@ -340,6 +346,7 @@ nav.home :hover{
     color: #fff;
     padding: 20px;
     background-color: black;
+    width: 100%;
     
 }
 
