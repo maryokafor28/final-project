@@ -253,7 +253,7 @@ display: flex;
 @media (max-width: 700px) {
     .nav_bar {
         padding: 8px 15px 8px 15px;
-        width: 600px;
+        width: 700px;
         font-size: 5px;
         margin-bottom: -100px;
         z-index: 2;
@@ -263,7 +263,7 @@ display: flex;
         width: 60px;
     }
     
-    #bxopen {
+    #bx-open {
         color: #fff;
     }
     .button {
@@ -289,7 +289,7 @@ display: flex;
         justify-content:center;
         align-items: center;
     
-        width: 500px;
+        width: 600px;
         text-align: center;
          margin: 50px;
         
@@ -305,7 +305,9 @@ display: flex;
         align-content: center;
     }
 
-    
+    .About_unth {
+        width: 700px;
+    }
     .About {
         display: flex;
         flex-direction: column;
@@ -337,8 +339,8 @@ display: flex;
 }
 
 .E_consultation img {
- width: 400px;
- height: 500px;
+ width: 800px;
+ height: 800px;
   max-width: 600px;
   align-content: center;
 }
@@ -352,9 +354,18 @@ display: flex;
 } 
 
 
+.button_consult {
+    background-color: #004D2C;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 20px;
+
+}
+
+
 .footer {
    
-    width: 100%; 
+    width: 700px; 
     display: flex;
     flex-direction: column;
     padding: 40px; 
@@ -362,20 +373,20 @@ display: flex;
     }
     .footer p{
     
-        font-size: 13px;
+        font-size: 17px;
         gap: 2px;
         
     
     }
     .footer_contact p {
         text-align: center;
-        font-size: 13px;
+        font-size: 17px;
     }
     .footer_unth  {
        text-align: center;
     }
     .footer h4{
-       width: 400px;
+       width: 600px;
       justify-content: center;
       font-size: 19px;
     }
@@ -383,6 +394,7 @@ display: flex;
     .footer_copyright h4 {
       font-size: 13px;
       text-align: center;
+      width: 800px;
     
     }
     
@@ -391,7 +403,7 @@ display: flex;
        margin-top: -22px;
 }
 
-    
+}    
        
        
      
