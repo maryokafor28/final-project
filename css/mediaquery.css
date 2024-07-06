@@ -155,23 +155,25 @@
     .button_help {
        
         padding: 25px 25px;
+        flex: 1;
     }
 
     .About_unth{
-        align-items: center;
-        justify-content:center;
-        margin-top: 50px;
+        align-content: center;
+        justify-content:space-between;
+      
        
     }
     
     .About {
+        width: 800px;
+        margin: 5px;
      
-      gap: 12px;
-      /* width: 100%; */
    } 
     .about_txt {
        font-size: 15px;
-       width: 150px;
+       width:200px;
+       gap: 45px;
        /* align-content: center; */
        justify-content: center;
       
@@ -227,7 +229,7 @@ display: flex;
 .footer p{
 
     font-size: 13px;
-    gap: 2px;
+   width: 200px;
 
 }
 .footer_unth p {
@@ -253,7 +255,7 @@ display: flex;
 @media (max-width: 700px) {
     .nav_bar {
         padding: 8px 15px 8px 15px;
-        width: 700px;
+        width: 600px;
         font-size: 5px;
         margin-bottom: -100px;
         z-index: 2;
@@ -289,7 +291,7 @@ display: flex;
         justify-content:center;
         align-items: center;
     
-        width: 600px;
+        width: 500px;
         text-align: center;
          margin: 50px;
         
@@ -304,18 +306,19 @@ display: flex;
         margin: 18px;
         align-content: center;
     }
-
+/* 
     .About_unth {
-        width: 700px;
-    }
+        width: 200px;
+    } */
     .About {
         display: flex;
         flex-direction: column;
+        width: 600px;
     }
   
     
     .about_txt {
-       font-size: 15px;
+       font-size: 14px;
        width: 300px;
        justify-content: center;
       
@@ -339,8 +342,8 @@ display: flex;
 }
 
 .E_consultation img {
- width: 800px;
- height: 800px;
+ width: 400px;
+ height: 500px;
   max-width: 600px;
   align-content: center;
 }
@@ -373,7 +376,7 @@ display: flex;
     }
     .footer p{
     
-        font-size: 17px;
+        font-size: 13px;
         gap: 2px;
         
     
@@ -384,6 +387,7 @@ display: flex;
     }
     .footer_unth  {
        text-align: center;
+       width: 35px;
     }
     .footer h4{
        width: 600px;

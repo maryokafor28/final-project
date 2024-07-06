@@ -187,7 +187,7 @@ nav.home :hover{
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-    /* padding: 14px 15px; */
+    padding: 14px 15px;
     
 }
 
@@ -197,8 +197,8 @@ nav.home :hover{
     gap: 80px;
     align-items: center;
     background-color:#f3fdfc;
-    padding: 90px 55px 90px 55px; 
-    /* width: 100%; */
+    padding: 90px 55px 90px 55px;  
+    /* width: 100%; */ */
 }
 
 
