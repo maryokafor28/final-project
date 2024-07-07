@@ -252,7 +252,7 @@ display: flex;
 
 
 /* ----------------FOR MOBILE------------------------------------- */
-@media (max-width: 700px) {
+@media (max-width: 663px) {
     .nav_bar {
         padding: 8px 15px 8px 15px;
         width: 400px;
@@ -277,24 +277,24 @@ display: flex;
     
     }
 
-    .hero_container img {
-        width: 100%;
+    .hero_image{
+        width: 400px;
         height: 400px;
         
     } 
 
     
     .booking_appoint {
-        display: block;
+         display: flex;
         flex-direction: column;
-        margin-top: 8px;
+         margin-top: 5px; 
         justify-content:center;
         align-items: center;
-    
-        width: 600px;
         text-align: center;
-         margin: 50px;
-        
+       
+    
+      
+         
     }
 
     .button_help {
@@ -302,9 +302,11 @@ display: flex;
         color: white;
         border-radius: 5px;
         padding:15px; 
-        flex: 1;
+        /* flex: 1; */
         margin: 18px;
         align-content: center;
+        width: 250px;
+        text-align: center;
     }
 /* 
     .About_unth {
@@ -313,13 +315,15 @@ display: flex;
     .About {
         display: flex;
         flex-direction: column;
-        width:100%;
+        width: 500px;
+        
+
     }
   
     
     .about_txt {
        font-size: 14px;
-        width:300px;
+        width:250px;
       
     
     }
@@ -329,8 +333,7 @@ display: flex;
     display: flex;
     flex-direction: column-reverse;
    
-    /* margin-top: 40px;  */
-    /* gap: 200px; */
+    gap: 16px;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -365,7 +368,7 @@ display: flex;
 
 .footer {
    
-    width: 100%; 
+    width:100%; 
     display: flex;
     flex-direction: column;
   
@@ -374,6 +377,8 @@ display: flex;
     .footer p{
     
         font-size: 13px;
+        width: 300px
+
         
     
     }
@@ -386,7 +391,7 @@ display: flex;
 
     }
     .footer h4{
-       width: 400px;
+       width: 300px;
       justify-content: center;
       font-size: 19px;
     }
