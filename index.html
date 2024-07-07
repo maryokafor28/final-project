@@ -43,6 +43,7 @@
            
         </ul>
     </nav>
+    
     <nav>
         <ul>
             <li><a href="#">Home</a></li>
@@ -60,7 +61,7 @@
         <i id="bx-open" class='bx bx-menu'></i>
         <i id="bx-close" class='bx bx-x-circle'></i>
     </div>
-    
+    </div>
     </header>
 
     <!-- -------HERO SECTION---------------- -->
@@ -223,7 +224,29 @@
 
 </section>
         
+<script>
+    function mobile_header (){
+        if (document.querySelector ('.mobile_header') .style.display == 'none' ) {
+         document.getElementById ('bx-open') .style.display = 'block' 
+         document.getElementById ('bx-open') .style.display = 'none'; 
+         document.getElementById ('bx-close') .style.display = 'block' 
+         document.getElementById ('bx-close') .style.display = 'none'; 
+         
+          
+        } else {
+         document.querySelector ('.mobile_header') .style.display = 'block';  
+         document.getElementById ('bx-open') .style.display = 'block';
+         document.getElementById ('bx-close') .style.display = 'none';
+        }
+
+    }
+    document.querySelector ('.mobile_header') .addEventListener ('click', mobile_header)
+    document.getElementById ('bx-open') .addEventListener ('click', mobile_header);
+    document.getElementById ('bx-close') .addEventListener ('click', mobile_header);
     
+</script>  
+</body>
+</html>
     
 
 
@@ -234,5 +257,3 @@
 
 
     
-</body>
-</html>

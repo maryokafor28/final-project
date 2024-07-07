@@ -277,7 +277,7 @@ display: flex;
     
     }
 
-    .hero_image{
+    .hero_image img{
         width: 400px;
         height: 400px;
         
@@ -291,6 +291,8 @@ display: flex;
         justify-content:center;
         align-items: center;
         text-align: center;
+        width: 400px;
+       
        
     
       
@@ -305,7 +307,7 @@ display: flex;
         /* flex: 1; */
         margin: 18px;
         align-content: center;
-        width: 250px;
+        width: 250px; 
         text-align: center;
     }
 /* 
@@ -315,7 +317,7 @@ display: flex;
     .About {
         display: flex;
         flex-direction: column;
-        width: 500px;
+        width: 375px;
         
 
     }
@@ -336,13 +338,13 @@ display: flex;
     gap: 16px;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 380px;
     align-content: center;
     
 }
 
 .E_consultation img {
- width: 400px;
+ width: 350px;
  height: 500px;
   max-width: 600px;
   align-content: center;
@@ -368,7 +370,7 @@ display: flex;
 
 .footer {
    
-    width:100%; 
+    width: 410px; 
     display: flex;
     flex-direction: column;
   
@@ -399,6 +401,7 @@ display: flex;
     .footer_copyright h4 {
       font-size: 13px;
       text-align: center;
+      width: 410px; 
      
     
     }
