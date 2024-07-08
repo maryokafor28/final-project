@@ -156,7 +156,6 @@
   }
 
   .About {
-    /* width: 800px; */
     margin: 5px;
   }
   .about_txt {
@@ -179,8 +178,6 @@
     gap: 16px;
     justify-content: center;
     align-items: center;
-    /* width: 700px; */
-    /* padding: 20px; */
     align-content: center;
   }
 
@@ -188,9 +185,7 @@
     font-size: 13px;
     width: 200px;
   }
-  .footer_unth {
-    width: 100%;
-  }
+
   .footer_unth p {
     line-height: 3;
   }
@@ -317,5 +312,46 @@
 
   .footer_img img {
     margin-top: -22px;
+  }
+
+  .main_gallary img {
+    width: 100%;
+  }
+
+  .main_gallary {
+    background-position: center;
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  .main_info {
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 100px; */
+  }
+
+  .main_info .line {
+    background-color: green;
+    width: 10%;
+    height: 4px;
+    border-radius: 30px;
+    color: white;
+  }
+
+  .phoneinfo,
+  .addressinfo {
+    padding: 20px 0;
+  }
+
+  .phone {
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phone .bx {
+    font-size: 20px;
   }
 }

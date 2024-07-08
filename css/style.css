@@ -247,6 +247,8 @@ nav.home :hover {
 }
 .footer_img {
   width: 40%;
+  display: flex;
+  flex-direction: column;
 }
 .footer_img img {
   margin-right: 22px;
@@ -271,13 +273,14 @@ nav.home :hover {
   display: inline-block;
   position: relative;
   left: 60px;
-  right: 15px;
+  right: 10px;
   bottom: -6%;
   width: 25px;
   line-height: 15px;
   text-align: center;
   font-weight: bold;
   z-index: 100;
+  margin-bottom: -30px;
 }
 .footer_contact {
   width: 30%;
@@ -300,4 +303,47 @@ nav.home :hover {
   padding: 20px;
   background-color: black;
   width: 100%;
+}
+
+/* ---------------------------CONTACT PAGE--------------------- */
+
+.main_gallary img {
+  width: 100%;
+}
+
+.main_gallary {
+  background-position: center;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.main_info {
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  width: 100%;
+}
+
+.main_info .line {
+  background-color: green;
+  width: 10%;
+  height: 4px;
+  border-radius: 30px;
+  color: white;
+}
+
+.phoneinfo,
+.addressinfo {
+  padding: 20px 0;
+}
+
+.phone {
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone .bx {
+  font-size: 20px;
 }
