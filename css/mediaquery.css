@@ -306,52 +306,56 @@
   }
 
   .footer_copyright h4 {
-    font-size: 13px;
-    text-align: center;
+    font-size: 9px;
+    /* text-align: center; */
   }
-
-  .footer_img img {
-    margin-top: -22px;
+  .footer_img {
+    width: 10%;
   }
 
   .main_gallary img {
     width: 100%;
+    margin-top: 30px;
+    height: 300px;
   }
 
   .main_gallary {
     background-position: center;
     text-align: center;
-    padding: 30px 0;
   }
 
   .main_info {
-    padding: 20px 0 20px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* gap: 100px; */
+    gap: 16px;
+  }
+  .phoneline h2 {
+    width: 100%;
+    padding: 0 40px;
+  }
+  .address h2 {
+    padding: 0 40px;
   }
 
   .main_info .line {
     background-color: green;
-    width: 10%;
-    height: 4px;
+    width: 15%;
     border-radius: 30px;
     color: white;
-  }
-
-  .phoneinfo,
-  .addressinfo {
-    padding: 20px 0;
+    margin-left: 30px;
   }
 
   .phone {
-    padding: 5px;
-    justify-content: center;
-    align-items: center;
+    padding: 0 50px;
+    width: 100%;
+    line-height: 2;
   }
 
   .phone .bx {
     font-size: 20px;
+  }
+  #bx-open {
+    color: black;
   }
 }
