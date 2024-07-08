@@ -323,6 +323,13 @@
   .footer_img {
     width: 10%;
   }
+  .container {
+  }
+
+  #form {
+    width: 300px;
+    margin-top: 50px;
+  }
 
   .main_gallary img {
     width: 100%;
