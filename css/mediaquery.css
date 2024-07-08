@@ -208,8 +208,8 @@
     padding: 8px 15px 8px 15px;
     /* width: 400px; */
     font-size: 5px;
-    /* z-index: 2; */
-    Position: absolute;  */
+    z-index: 2;
+    position: absolute;
   }
   .logo {
     width: 60px;
