@@ -59,7 +59,7 @@ body {
 }
 
 .nav_bar :hover {
-  color: blue;
+  color: rgb(173, 206, 173);
 }
 
 li {
@@ -102,6 +102,8 @@ header ul {
   color: #ffff;
   font-size: 20px;
 }
+
+
 /* ------STYLING THE BUTTON */
 
 .button {
@@ -115,13 +117,12 @@ header ul {
   display: flex;
   gap: 10px;
   align-items: center;
-  color: #09008be5;
+  color:  rgb(173, 206, 173);
 }
-
 .nav_down_arrow :hover {
   font-size: 18px;
   padding-left: 10px;
-  color: #0e008be5;
+  color: rgb(173, 206, 173);
 }
 
 /* -------STYLING THE HERO SECTION----------- */
@@ -137,7 +138,20 @@ header ul {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  animation: change 10s infinite ease-out;
 } 
+
+@keyframes change {
+  0% {
+    background-image: url(../images/hero-image.jpg);
+  }
+  20% {
+    background-image: url(../images/slider.jpg);
+  }
+  40% {
+    background-image: url(../images/slider-2.jpg);
+  }
+}
 
 .hero_container h2 {
   color: #fff;
@@ -167,11 +181,11 @@ header ul {
 }
 
 .button_help :hover {
-  color: blue;
+  color: rgb(173, 206, 173);
 }
 
 nav.home :hover {
-  color: blue;
+  color:  rgb(173, 206, 173);
 }
 
 .button_help > a {
