@@ -138,7 +138,7 @@
   }
 
   .booking_appoint {
-    margin-top: -70px;
+    margin-top: -50px;
     z-index: 100;
     text-align: center;
     gap: 30px;
@@ -147,7 +147,6 @@
 
   .button_help {
     padding: 25px 25px;
-    flex: 1;
   }
   .hero_container h2 {
     color: #fff;
@@ -155,35 +154,27 @@
     width: 80%;
   }
 
-  .About_unth {
-    align-content: center;
-    justify-content: space-between;
-  }
-
   .About {
-    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
   .about_txt {
     font-size: 15px;
-    width: 200px;
-    gap: 45px;
+    gap: 16px;
+    width: 250px;
     /* align-content: center; */
     justify-content: center;
   }
 
   .About_unth img {
-    width: 200px;
+    width: 100%;
   }
 
   .E_consultation {
-    display: flex;
-    flex-direction: row;
-
-    margin-top: 40px;
-    gap: 16px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    margin-top: 10px;
+    gap: 30px;
+    padding: 0 40px;
+    justify-content: space-between;
   }
 
   .footer p {
@@ -261,13 +252,11 @@
     width: 250px;
     text-align: center;
   }
-  /* 
-    .About_unth {
-        width: 200px;
-    } */
+
   .About {
     display: flex;
     flex-direction: column;
+    background-size: cover;
   }
 
   .about_txt {

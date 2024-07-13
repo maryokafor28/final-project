@@ -53,9 +53,14 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 50px;
   padding: 40px 90px 40px 90px;
   text-transform: capitalize;
   width: 100%;
+}
+
+.dropdown-menu ul {
+  display: block;
 }
 
 .nav_bar :hover {
@@ -77,6 +82,7 @@ header ul {
   gap: 100px;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .mobile_header {
@@ -138,7 +144,7 @@ header ul {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  animation: change 10s infinite ease-out;
+  animation: change 16s infinite ease-in-out;
 } 
 
 @keyframes change {
@@ -208,7 +214,9 @@ nav.home :hover {
   grid-template-columns: repeat(3, 1fr);
   gap: 80px;
   align-items: center;
-  background-color: #f3fdfc;
+  background-image: url(../images/about-background.png);
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 90px 55px 90px 55px;
   width: 100%;
 }
