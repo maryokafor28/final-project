@@ -201,7 +201,7 @@
 /* ----------------FOR MOBILE------------------------------------- */
 @media (max-width: 663px) {
   .nav_bar {
-    padding: 8px 15px 8px 15px;
+    padding: 7px 15px 7px 15px;
     /* width: 400px; */
     font-size: 5px;
     z-index: 2;
