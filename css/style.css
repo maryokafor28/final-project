@@ -59,9 +59,6 @@ body {
   width: 100%;
 }
 
-.dropdown-menu ul {
-  display: block;
-}
 
 .nav_bar :hover {
   color: rgb(173, 206, 173);
