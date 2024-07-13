@@ -53,7 +53,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 50px;
   padding: 40px 90px 40px 90px;
   text-transform: capitalize;
   width: 100%;
