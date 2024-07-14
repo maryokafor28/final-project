@@ -140,7 +140,7 @@ header ul {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  animation: change 16s infinite ease-in-out;
+  animation: change 16s infinite step-end;
 } 
 
 @keyframes change {
