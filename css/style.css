@@ -48,15 +48,16 @@ body {
 
 /* -----------NAV BAR--------------- */
 
+
 .nav_bar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 90px 40px 90px;
+  padding: 0 50px;
   text-transform: capitalize;
   width: 100%;
-}
+} 
 
 
 .nav_bar :hover {
@@ -72,23 +73,23 @@ a {
   font-size: 15px;
   font-weight: 500;
 }
-
 header ul {
   display: flex;
-  gap: 100px;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
+  gap: 150px;
+  justify-content: center;
+  align-content: center;
+  position: relative; 
 }
+
 
 .mobile_header {
   display: none;
-  background-color: rgba(6, 46, 18, 0.747);
-  width: 100vw;
+  background-color: #004D2C;
+  width: 100vw; 
   height: 50vh;
   position: absolute;
   top: 120px;
-  right: 0;
+  left: 0;
   border-radius: 15px;
 }
 
@@ -136,22 +137,21 @@ header ul {
   padding: 0 30px ;
   width: 100%;
   height: 650px;
-  background-image: url("../images/hero-image.jpg");
+  background-image: url("../images/Hero-section.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
   animation: change 16s infinite step-end;
 } 
 
 @keyframes change {
   0% {
-    background-image: url(../images/hero-image.jpg);
+    background-image: url(../images/Hero-section.png);
   }
   20% {
-    background-image: url(../images/slider.jpg);
+    background-image: url(../images/slider2/Variant4.png);
   }
   40% {
-    background-image: url(../images/slider-2.jpg);
+    background-image: url(../images/slider1/Variant4.png);
   }
 }
 
